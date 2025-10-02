@@ -90,6 +90,7 @@ function NewPlayerForm() {
   const $form = document.createElement("form");
 
   $form.innerHTML = `
+    <h2>Invite a New Player</h2>
     <label>
     Name
     <input name="name" required/>

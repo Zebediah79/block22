@@ -55,6 +55,7 @@ form label {
   display: flex;
   flex-direction: column;
   font-weight: bold;
+  font-size: 1.2rem;
   color: #333;
 }
 
@@ -152,8 +153,8 @@ p.details {
   text-align: center;
 }
 
-@media (max-width: 1200px){
-    .details th {
+@media (max-width: 1200px) {
+  .details th {
     width: 25%;
   }
 }
@@ -168,7 +169,7 @@ p.details {
   }
 
   .details table {
-    font-size: 1.2rem; /
+    font-size: 1.2rem;
   }
 
   .details th {
