@@ -190,7 +190,6 @@ function render() {
 async function init() {
   await getPlayers();
   render();
-  console.log(players);
 }
 
 init();
